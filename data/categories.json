@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "North Indian",
+    "icon": "fa-bowl-rice",
+    "description": "Rich and flavorful North Indian cuisine"
+  },
+  {
+    "id": 2,
+    "name": "South Indian",
+    "icon": "fa-dosa",
+    "description": "Authentic South Indian delicacies"
+  },
+  {
+    "id": 3,
+    "name": "Chinese",
+    "icon": "fa-bowl-food",
+    "description": "Indo-Chinese favorites"
+  },
+  {
+    "id": 4,
+    "name": "Snacks",
+    "icon": "fa-cookie-bite",
+    "description": "Evening snacks and starters"
+  },
+  {
+    "id": 5,
+    "name": "Desserts",
+    "icon": "fa-ice-cream",
+    "description": "Sweet treats and desserts"
+  },
+  {
+    "id": 6,
+    "name": "Beverages",
+    "icon": "fa-mug-hot",
+    "description": "Refreshing drinks and beverages"
+  }
+]

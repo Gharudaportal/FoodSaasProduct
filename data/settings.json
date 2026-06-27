@@ -1,0 +1,80 @@
+{
+  "businessName": "Homemade Delights",
+  "tagline": "Fresh Homemade Food Delivered Daily",
+  "logo": "images/logo.png",
+  "contactNumber": "+91 98765 43210",
+  "whatsappNumber": "+919876543210",
+  "address": "123 Food Street, Gourmet Colony, Mumbai - 400001",
+  "email": "hello@homemadedelights.com",
+  "socialMedia": {
+    "facebook": "https://facebook.com/homemadedelights",
+    "instagram": "https://instagram.com/homemadedelights",
+    "twitter": "https://twitter.com/homemadedelights"
+  },
+  "hero": {
+    "title": "Fresh Homemade Food Delivered Daily",
+    "subtitle": "Authentic homemade taste, prepared with love and delivered fresh to your doorstep",
+    "backgroundImage": "images/hero-bg.jpg",
+    "stats": [
+      { "label": "Happy Customers", "value": 5000 },
+      { "label": "Daily Orders", "value": 350 },
+      { "label": "Menu Items", "value": 120 },
+      { "label": "Years of Service", "value": 8 }
+    ]
+  },
+  "about": {
+    "title": "Our Homemade Story",
+    "description": "We started with a simple dream - to bring the warmth of homemade food to every household. Every dish is prepared with the same care and love that goes into a mother's cooking.",
+    "features": [
+      {
+        "icon": "fa-leaf",
+        "title": "Fresh Ingredients",
+        "description": "We source the freshest vegetables and finest spices daily from local markets."
+      },
+      {
+        "icon": "fa-heart",
+        "title": "Made with Love",
+        "description": "Every meal is prepared with the same affection as home-cooked food."
+      },
+      {
+        "icon": "fa-shield-alt",
+        "title": "Quality Assured",
+        "description": "Strict hygiene standards and quality checks for every order."
+      }
+    ]
+  },
+  "gallery": [
+    "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "https://images.pexels.com/photos/2286895/pexels-photo-2286895.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=600"
+  ],
+  "testimonials": [
+    {
+      "name": "Priya Sharma",
+      "rating": 5,
+      "text": "The food tastes exactly like my mother's cooking. Absolutely loved the dal makhani and butter chicken!",
+      "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100"
+    },
+    {
+      "name": "Rahul Verma",
+      "rating": 5,
+      "text": "Best homemade food delivery in the city. Fresh, tasty and always on time. Highly recommended!",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100"
+    },
+    {
+      "name": "Anita Gupta",
+      "rating": 4,
+      "text": "Great variety of dishes. The rotis are soft and fresh. My family enjoys ordering from here every weekend.",
+      "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100"
+    },
+    {
+      "name": "Vikram Patel",
+      "rating": 5,
+      "text": "Authentic flavors, generous portions, and excellent packaging. This is my go-to place for homemade food.",
+      "image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=100"
+    }
+  ]
+}

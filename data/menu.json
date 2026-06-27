@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Butter Chicken",
+    "description": "Tender chicken cooked in rich buttery tomato gravy with aromatic spices",
+    "price": 280,
+    "category": "North Indian",
+    "isVeg": false,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Dal Makhani",
+    "description": "Creamy black lentils slow-cooked with butter and cream",
+    "price": 180,
+    "category": "North Indian",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Paneer Tikka",
+    "description": "Marinated cottage cheese cubes grilled to perfection",
+    "price": 220,
+    "category": "North Indian",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "name": "Masala Dosa",
+    "description": "Crispy rice crepe filled with spiced potato masala",
+    "price": 120,
+    "category": "South Indian",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/12345385/pexels-photo-12345385.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "name": "Idli Sambar",
+    "description": "Soft steamed rice cakes served with flavorful lentil soup",
+    "price": 80,
+    "category": "South Indian",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/4331489/pexels-photo-4331489.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.4
+  },
+  {
+    "id": 6,
+    "name": "Chicken Biryani",
+    "description": "Fragrant basmati rice layered with spiced chicken and saffron",
+    "price": 250,
+    "category": "North Indian",
+    "isVeg": false,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.9
+  },
+  {
+    "id": 7,
+    "name": "Chilli Chicken",
+    "description": "Crispy chicken tossed in spicy Indo-Chinese sauce",
+    "price": 200,
+    "category": "Chinese",
+    "isVeg": false,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/1051397/pexels-photo-1051397.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.3
+  },
+  {
+    "id": 8,
+    "name": "Veg Manchurian",
+    "description": "Vegetable balls in tangy Manchurian gravy",
+    "price": 160,
+    "category": "Chinese",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.2
+  },
+  {
+    "id": 9,
+    "name": "Hakka Noodles",
+    "description": "Stir-fried noodles with vegetables and soy sauce",
+    "price": 140,
+    "category": "Chinese",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.1
+  },
+  {
+    "id": 10,
+    "name": "Samosa",
+    "description": "Crispy pastry filled with spiced potatoes and peas",
+    "price": 30,
+    "category": "Snacks",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/4449068/pexels-photo-4449068.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.5
+  },
+  {
+    "id": 11,
+    "name": "Pakora Platter",
+    "description": "Assorted vegetable fritters served with chutney",
+    "price": 100,
+    "category": "Snacks",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.3
+  },
+  {
+    "id": 12,
+    "name": "Gulab Jamun",
+    "description": "Soft milk dumplings soaked in fragrant sugar syrup",
+    "price": 60,
+    "category": "Desserts",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/3932697/pexels-photo-3932697.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.7
+  },
+  {
+    "id": 13,
+    "name": "Rasmalai",
+    "description": "Soft cottage cheese patties in sweetened milk",
+    "price": 70,
+    "category": "Desserts",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/6121840/pexels-photo-6121840.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.6
+  },
+  {
+    "id": 14,
+    "name": "Masala Chai",
+    "description": "Aromatic spiced tea brewed with ginger and cardamom",
+    "price": 30,
+    "category": "Beverages",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/9043508/pexels-photo-9043508.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.8
+  },
+  {
+    "id": 15,
+    "name": "Fresh Lime Soda",
+    "description": "Refreshing lime drink with a hint of mint",
+    "price": 50,
+    "category": "Beverages",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/1187766/pexels-photo-1187766.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.4
+  },
+  {
+    "id": 16,
+    "name": "Palak Paneer",
+    "description": "Cottage cheese in creamy spinach gravy",
+    "price": 200,
+    "category": "North Indian",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/9609836/pexels-photo-9609836.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.5
+  },
+  {
+    "id": 17,
+    "name": "Chicken 65",
+    "description": "Spicy deep-fried chicken with curry leaves",
+    "price": 180,
+    "category": "South Indian",
+    "isVeg": false,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.4
+  },
+  {
+    "id": 18,
+    "name": "Spring Rolls",
+    "description": "Crispy rolls stuffed with vegetables",
+    "price": 80,
+    "category": "Chinese",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/357784/pexels-photo-357784.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.2
+  },
+  {
+    "id": 19,
+    "name": "Vada Pav",
+    "description": "Spiced potato fritter in a bun with chutneys",
+    "price": 40,
+    "category": "Snacks",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/4331490/pexels-photo-4331490.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.6
+  },
+  {
+    "id": 20,
+    "name": "Kheer",
+    "description": "Creamy rice pudding with nuts and cardamom",
+    "price": 60,
+    "category": "Desserts",
+    "isVeg": true,
+    "isAvailable": true,
+    "image": "https://images.pexels.com/photos/6121841/pexels-photo-6121841.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "rating": 4.5
+  }
+]

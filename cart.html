@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Homemade Delights</title>
+    <meta name="description" content="View your cart and proceed to checkout. Fresh homemade food delivery.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://homemadedelights.com/cart.html">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+        <p class="loader-text">Loading Cart...</p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolled">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-utensils"></i><span class="brand-name">Homemade Delights</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3"><a href="cart.html" class="btn btn-primary-custom"><i class="fas fa-shopping-cart me-2"></i>Cart <span class="cart-count">0</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cart Header -->
+    <section class="py-5 mt-5" style="background: linear-gradient(135deg, #1a1a2e 0%, #2c3e50 100%); min-height: 300px; display: flex; align-items: center;">
+        <div class="container text-center">
+            <h1 class="text-white fw-bold mb-3" data-aos="fade-up">Your Cart</h1>
+            <p class="text-white-50 mb-0" data-aos="fade-up" data-aos-delay="100">Review your items and proceed to checkout</p>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section class="section-padding cart-section" style="background: #f8f9fa; min-height: calc(100vh - 300px);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-4">
+                    <div id="cartItemsContainer" data-aos="fade-up"></div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div id="cartSummary" class="cart-summary" style="display: none;">
+                        <h4>Order Summary</h4>
+                        <div class="summary-row">
+                            <span>Subtotal</span>
+                            <span id="cartSubtotal">₹0</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Delivery Fee</span>
+                            <span id="cartDelivery">₹0</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total</span>
+                            <span id="cartTotal">₹0</span>
+                        </div>
+                        <a href="checkout.html" class="btn btn-primary-custom w-100 mt-3"><i class="fas fa-credit-card me-2"></i>Proceed to Checkout</a>
+                        <a href="menu.html" class="btn btn-outline-secondary w-100 mt-2"><i class="fas fa-arrow-left me-2"></i>Continue Shopping</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand"><i class="fas fa-utensils"></i><span class="brand-name">Homemade Delights</span></div>
+                    <p class="footer-about">Bringing the warmth of homemade food to your table. Fresh, delicious, and made with love every single day.</p>
+                    <div class="footer-social">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/919876543210" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="track-order.html">Track Order</a></li>
+                        <li><a href="admin/login.html"><i class="fas fa-lock me-1"></i>Admin</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Categories</h5>
+                    <ul class="footer-links">
+                        <li><a href="menu.html">North Indian</a></li>
+                        <li><a href="menu.html">South Indian</a></li>
+                        <li><a href="menu.html">Chinese</a></li>
+                        <li><a href="menu.html">Desserts</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Contact Info</h5>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i><span class="contact-number">+91 98765 43210</span></li>
+                        <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/919876543210" class="whatsapp-number" target="_blank">+91 98765 43210</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i><span class="business-address">123 Food Street, Gourmet Colony, Mumbai - 400001</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; 2024 <span class="brand-name">Homemade Delights</span>. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Toast Container -->
+    <div class="toast-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
